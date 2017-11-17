@@ -43,9 +43,10 @@ var Vue = require('vue')
 var iButton = require('i-button')
 ```
 
-## Usage
+## Installation
 
-It's very useful to use `i-button` you only need to register then :smile: seems like with
+### Module
+
 ``` javascript
 import iButton from 'i-button'
 
@@ -59,7 +60,25 @@ export default {
   // ...
 }
 ```
-and...
+
+### Browser
+
+```html
+<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+<script src="dist/i-button.min.js"></script>
+<script>
+Vue.use(iButton);
+
+new Vue({
+  el: '#app'
+});
+</script>
+```
+
+## Usage
+
+It's very useful to use `i-button` you only need to register then :smile: seems like with
+
 ``` html
 <my-awesome-button class="is-background-red">
   🗑
