@@ -67,16 +67,16 @@ and...
 ## Colors
 
 Actually we have 10 colors, are:
-* <img src="https://img.shields.io/badge/green-                    -4cae4c.svg" alt="green">
-* <img src="https://img.shields.io/badge/red-                    -d43f3a.svg" alt="red">
-* <img src="https://img.shields.io/badge/blue-                    -0488bb.svg" alt="blue">
-* <img src="https://img.shields.io/badge/gray-                    -ada8a5.svg" alt="gray">
-* <img src="https://img.shields.io/badge/pink-                    -ff067c.svg" alt="pink">
-* <img src="https://img.shields.io/badge/orange-                    -ff9e00.svg" alt="orange">
-* <img src="https://img.shields.io/badge/purple-                    -9400c8.svg" alt="purple">
-* <img src="https://img.shields.io/badge/yellow-                    -ffdf00.svg" alt="yellow">
-* <img src="https://img.shields.io/badge/white-                    -ffffff.svg" alt="white">
-* <img src="https://img.shields.io/badge/black-                    -000000.svg" alt="black">
+* <img src="https://img.shields.io/badge/green-                    -4cae4c.svg?style=for-the-badge" alt="green">
+* <img src="https://img.shields.io/badge/red-                    -d43f3a.svg?style=for-the-badge" alt="red">
+* <img src="https://img.shields.io/badge/blue-                    -0488bb.svg?style=for-the-badge" alt="blue">
+* <img src="https://img.shields.io/badge/gray-                    -ada8a5.svg?style=for-the-badge" alt="gray">
+* <img src="https://img.shields.io/badge/pink-                    -ff067c.svg?style=for-the-badge" alt="pink">
+* <img src="https://img.shields.io/badge/orange-                    -ff9e00.svg?style=for-the-badge" alt="orange">
+* <img src="https://img.shields.io/badge/purple-                    -9400c8.svg?style=for-the-badge" alt="purple">
+* <img src="https://img.shields.io/badge/yellow-                    -ffdf00.svg?style=for-the-badge" alt="yellow">
+* <img src="https://img.shields.io/badge/white-                    -ffffff.svg?style=for-the-badge" alt="white">
+* <img src="https://img.shields.io/badge/black-                    -000000.svg?style=for-the-badge" alt="black">
 
 ## Classes
 
