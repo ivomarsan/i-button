@@ -49,7 +49,10 @@ It's very useful to use `i-button` you only need to register then :smile: seems 
 ``` javascript
 import iButton from 'i-button'
 
+// ...
+
 export default {
+  // ...
   components: {
     'my-awesome-button': iButton,
   }
@@ -59,28 +62,45 @@ export default {
 and...
 ``` html
 <my-awesome-button class="is-background-red">
-🗑
+  🗑
 </my-awesome-button>
 ```
-
+You also can use some properties like
+#### A Link _(href & target & rel)_
+``` html
+<my-awesome-button class="is-background-red"
+:href="'http://ivomarsan.com'"
+:target="'_blank'"
+:rel="'noopener'">
+  🗑
+</my-awesome-button>
+```
+#### Button _(disabled & type)_
+``` html
+<my-awesome-button class="is-background-red"
+:disabled="isDisabled"
+:type="'button'">
+  🗑
+</my-awesome-button>
+```
 
 ## Colors
 
 Actually we have 10 colors, are:
-* <img src="https://img.shields.io/badge/green-                    -4cae4c.svg?style=for-the-badge" alt="green">
 * <img src="https://img.shields.io/badge/red-                    -d43f3a.svg?style=for-the-badge" alt="red">
+* <img src="https://img.shields.io/badge/pink-                    -ff067c.svg?style=for-the-badge" alt="pink">
 * <img src="https://img.shields.io/badge/blue-                    -0488bb.svg?style=for-the-badge" alt="blue">
 * <img src="https://img.shields.io/badge/gray-                    -ada8a5.svg?style=for-the-badge" alt="gray">
-* <img src="https://img.shields.io/badge/pink-                    -ff067c.svg?style=for-the-badge" alt="pink">
-* <img src="https://img.shields.io/badge/orange-                    -ff9e00.svg?style=for-the-badge" alt="orange">
+* <img src="https://img.shields.io/badge/black-                    -000000.svg?style=for-the-badge" alt="black">
+* <img src="https://img.shields.io/badge/white-                    -ffffff.svg?style=for-the-badge" alt="white">
+* <img src="https://img.shields.io/badge/green-                    -4cae4c.svg?style=for-the-badge" alt="green">
 * <img src="https://img.shields.io/badge/purple-                    -9400c8.svg?style=for-the-badge" alt="purple">
 * <img src="https://img.shields.io/badge/yellow-                    -ffdf00.svg?style=for-the-badge" alt="yellow">
-* <img src="https://img.shields.io/badge/white-                    -ffffff.svg?style=for-the-badge" alt="white">
-* <img src="https://img.shields.io/badge/black-                    -000000.svg?style=for-the-badge" alt="black">
+* <img src="https://img.shields.io/badge/orange-                    -ff9e00.svg?style=for-the-badge" alt="orange">
 
 ## Classes
 
-Classes are formed by `prefix-properties-color`, examples:
+Classes are formed by `prefix-type-color`, examples:
 * `is-color-green`
 * `is-outline-green`
 * `is-background-green`
