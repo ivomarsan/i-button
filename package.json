@@ -1,7 +1,8 @@
 {
   "name": "i-button",
-  "version": "0.1.1",
-  "description": "A simplistic button forked from VueMaterial inspired in Material Design Style Guide",
+  "version": "0.1.2",
+  "description":
+    "A simplistic button forked from VueMaterial inspired in Material Design Style Guide",
   "author": "ivomarsan <ivomarlucio@gmail.com>",
   "license": "ISC",
   "main": "dist/i-button.js",
@@ -25,11 +26,7 @@
   "dependencies": {
     "vue": "^2.4.4"
   },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not ie <= 8"
-  ],
+  "browserslist": ["> 1%", "last 2 versions", "not ie <= 8"],
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
