@@ -23,6 +23,7 @@
     "url": "git+https://github.com/ivomarsan/i-button.git"
   },
   "dependencies": {
+    "i-colors": "^1.0.2",
     "vue": "^2.4.4"
   },
   "browserslist": [
