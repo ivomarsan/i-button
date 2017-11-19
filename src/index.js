@@ -1,7 +1,7 @@
-import iButton from './iButton.vue';
+import iButton from './iButton.vue'
 
 module.exports = {
-  install: function (Vue, options) {
-    Vue.component('i-button', iButton);  
+  install (Vue, options) {
+    Vue.component('i-button', iButton)
   }
-};
+}

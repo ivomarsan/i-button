@@ -80,31 +80,40 @@ new Vue({
 It's very useful to use `i-button` you only need to register then :smile: seems like with
 
 ``` html
-<my-awesome-button class="is-background-red">
+<i-button class="is-background-red">
   🗑
-</my-awesome-button>
+</i-button>
 ```
 You also can use some properties like
 #### A Link _(href & target & rel)_
 ``` html
-<my-awesome-button class="is-background-red"
+<i-button class="is-background-red"
 :href="'http://ivomarsan.com'"
 :target="'_blank'"
 :rel="'noopener'">
   🗑
-</my-awesome-button>
+</i-button>
 ```
 #### Button _(disabled & type)_
 ``` html
-<my-awesome-button class="is-background-red"
+<i-button class="is-background-red"
 :disabled="isDisabled"
 :type="'button'">
   🗑
-</my-awesome-button>
+</i-button>
 ```
 
-## Colors
+## Personalization
 
+You can personalize your `<i-button>` with `class`(_list bellow_) or through some properties
+* `is-color` (*String: Hex*) to define a color to button
+* `is-outline` (*String: Hex*) to draw a custom border
+* `is-background` (*String: Hex*) to get a background color
+
+
+> See more in [i-colors](https://www.npmjs.com/package/i-colors) and examples. It's easier :smile:
+
+### Colors
 Actually we have 10 colors, are:
 * <img src="https://img.shields.io/badge/red-                    -d43f3a.svg?style=for-the-badge" alt="red">
 * <img src="https://img.shields.io/badge/pink-                    -ff067c.svg?style=for-the-badge" alt="pink">
@@ -117,13 +126,13 @@ Actually we have 10 colors, are:
 * <img src="https://img.shields.io/badge/yellow-                    -ffdf00.svg?style=for-the-badge" alt="yellow">
 * <img src="https://img.shields.io/badge/orange-                    -ff9e00.svg?style=for-the-badge" alt="orange">
 
-## Classes
+### Classes
 
 Classes are formed by `prefix-type-color`, examples:
 * `is-color-green`
 * `is-outline-green`
 * `is-background-green`
 
-## Example
+## Demo
 
-to-do
+[JSFiddle](https://jsfiddle.net/fucm9smn/)

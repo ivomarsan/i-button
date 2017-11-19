@@ -1,18 +1,20 @@
 <template>
-  <a :href="href" :disabled="disabled" :target="target" :rel="newRel" @click="$emit('click', $event)" v-if="href">
+  <a :href="href" :disabled="disabled" :target="target" :rel="newRel" @click="$emit('click', $event)" :style="style" v-if="href">
     <!-- <md-ink-ripple :md-disabled="disabled"></md-ink-ripple> -->
     <slot></slot>
   </a>
 
-  <button :type="type" :disabled="disabled" @click="$emit('click', $event)" v-else>
+  <button :type="type" :disabled="disabled" @click="$emit('click', $event)" :style="style" v-else>
     <!-- <md-ink-ripple :md-disabled="disabled"></md-ink-ripple> -->
     <slot></slot>
   </button>
 </template>
 
-<style lang="scss" src="./iButton.scss" scoped></style>
+<style lang="css" src="../node_modules/i-colors/dist/i-colors.css" scoped></style>
 
 <script>
+// import 'i-colors/dist/i-colors.css';
+
 export default {
   name: 'md-button',
   props: {
@@ -24,6 +26,9 @@ export default {
       default: 'button',
     },
     disabled: Boolean,
+    isBackground: String,
+    isOutline: String,
+    isColor: String,
   },
   computed: {
     newRel() {
@@ -31,6 +36,13 @@ export default {
         return this.rel || 'noopener';
       }
       return this.rel;
+    },
+    style() {
+      return {
+        'background-color': this.isBackground,
+        'border-color': this.isOutline,
+        color: this.isColor,
+      };
     },
   },
 };
