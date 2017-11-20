@@ -102,14 +102,37 @@ You also can use some properties like
   🗑
 </i-button>
 ```
+#### With a Tooltip
+``` html
+<i-button class="is-outline-blue"
+tooltip="This is a Tooltip"
+toolpos="top">
+  🗑
+</i-button>
+```
+This example will open a `Tooltip` with a message to `top`. See above all tooltips positions (`toolpos`) avaliable:
+* `top`
+* `left`
+* `right`
+* `bottom`
+
+`toolpos` its a _String_ and has by default value: `top`
 
 ## Personalization
 
 You can personalize your `<i-button>` with `class`(_list bellow_) or through some properties
 * `is-color` (*String: Hex*) to define a color to button
+``` html
+<i-button is-color="#d43f3a">🗑</i-button>
+```
 * `is-outline` (*String: Hex*) to draw a custom border
+``` html
+<i-button is-outline="#d43f3a">🗑</i-button>
+```
 * `is-background` (*String: Hex*) to get a background color
-
+``` html
+<i-button is-background="#d43f3a">🗑</i-button>
+```
 
 > See more in [i-colors](https://www.npmjs.com/package/i-colors) and examples. It's easier :smile:
 
@@ -130,9 +153,18 @@ Actually we have 10 colors, are:
 
 Classes are formed by `prefix-type-color`, examples:
 * `is-color-green`
+``` html
+<i-button class="is-color-green">🗑</i-button>
+```
 * `is-outline-green`
+``` html
+<i-button class="is-outline-green">🗑</i-button>
+```
 * `is-background-green`
+``` html
+<i-button class="is-background-green">🗑</i-button>
+```
 
 ## Demo
 
-[JSFiddle](https://jsfiddle.net/fucm9smn/)
+[JSFiddle](https://jsfiddle.net/r5yf1qtv/)
