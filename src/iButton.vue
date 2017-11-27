@@ -19,7 +19,8 @@
 
 <script>
 import mdInkRipple from './mdInkRipple/mdInkRipple.vue';
-import iTooltip from '../../i-tooltip/src/iTooltip.vue';
+// import iTooltip from '../../i-tooltip/src/iTooltip.vue';
+import iTooltip from 'i-tooltip';
 
 export default {
   name: 'md-button',
