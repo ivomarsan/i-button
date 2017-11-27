@@ -61,7 +61,7 @@ export default {
       };
     },
     disabled() {
-      return this.mdDisabled || !this.$material.inkRipple;
+      return this.mdDisabled || false;
     },
   },
   watch: {

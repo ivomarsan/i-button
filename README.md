@@ -21,34 +21,40 @@
   </a>
 </p>
 
-----------
+---
 
-<a href="https://www.npmjs.com/package/i-button">`i-button`</a> is a simplistic button forked from <a href="https://www.npmjs.com/package/vue-material">`vue-material`</a> inspired in <a href="http://material.google.com" target="_blank">Material Design</a> specs.
+<a href="https://www.npmjs.com/package/i-button">`i-button`</a> is a simplistic
+button forked from
+<a href="https://www.npmjs.com/package/vue-material">`vue-material`</a> inspired
+in <a href="http://material.google.com" target="_blank">Material Design</a>
+specs.
 
 ## Installation
 
 Install via `npm`
-``` bash
+
+```bash
 npm install i-button --save
 ```
 
 Import or require in your code:
-``` javascript
-import Vue from 'vue'
-import iButton from 'i-button'
+
+```javascript
+import Vue from 'vue';
+import iButton from 'i-button';
 
 // OR
 
-var Vue = require('vue')
-var iButton = require('i-button')
+var Vue = require('vue');
+var iButton = require('i-button');
 ```
 
 ## Installation
 
 ### Module
 
-``` javascript
-import iButton from 'i-button'
+```javascript
+import iButton from 'i-button';
 
 // ...
 
@@ -56,9 +62,9 @@ export default {
   // ...
   components: {
     'my-awesome-button': iButton,
-  }
+  },
   // ...
-}
+};
 ```
 
 ### Browser
@@ -77,16 +83,20 @@ new Vue({
 
 ## Usage
 
-It's very useful to use `i-button` you only need to register then :smile: seems like with
+It's very useful to use `i-button` you only need to register then :smile: seems
+like with
 
-``` html
+```html
 <i-button class="is-background-red">
   🗑
 </i-button>
 ```
+
 You also can use some properties like
+
 #### A Link _(href & target & rel)_
-``` html
+
+```html
 <i-button class="is-background-red"
 :href="'http://ivomarsan.com'"
 :target="'_blank'"
@@ -94,23 +104,30 @@ You also can use some properties like
   🗑
 </i-button>
 ```
+
 #### Button _(disabled & type)_
-``` html
+
+```html
 <i-button class="is-background-red"
 :disabled="isDisabled"
 :type="'button'">
   🗑
 </i-button>
 ```
+
 #### With a Tooltip
-``` html
+
+```html
 <i-button class="is-outline-blue"
 tooltip="This is a Tooltip"
-toolpos="top">
+tooltip-pos="top">
   🗑
 </i-button>
 ```
-This example will open a `Tooltip` with a message to `top`. See above all tooltips positions (`toolpos`) avaliable:
+
+This example will open a `Tooltip` with a message to `top`. See above all
+tooltips positions (`toolpos`) avaliable:
+
 * `top`
 * `left`
 * `right`
@@ -120,24 +137,38 @@ This example will open a `Tooltip` with a message to `top`. See above all toolti
 
 ## Personalization
 
-You can personalize your `<i-button>` with `class`(_list bellow_) or through some properties
-* `is-color` (*String: Hex*) to define a color to button
-``` html
+You can personalize your `<i-button>` with class `i-button` or pre-defined
+classes to change background, color or outline (_list bellow_) or through some
+properties.
+
+`uppercase` (_Boolean_) if true, text will be UPPERCASED.
+
+```html
+<i-button uppercase>🗑</i-button>
+```
+
+`is-color` (_String: Hex_) to define a color to button.
+
+```html
 <i-button is-color="#d43f3a">🗑</i-button>
 ```
-* `is-outline` (*String: Hex*) to draw a custom border
-``` html
+
+`is-outline` (_String: Hex_) to draw a custom border.
+
+```html
 <i-button is-outline="#d43f3a">🗑</i-button>
 ```
-* `is-background` (*String: Hex*) to get a background color
-``` html
+
+`is-background` (_String: Hex_) to get a background color.
+
+```html
 <i-button is-background="#d43f3a">🗑</i-button>
 ```
 
-> See more in [i-colors](https://www.npmjs.com/package/i-colors) and examples. It's easier :smile:
-
 ### Colors
+
 Actually we have 10 colors, are:
+
 * <img src="https://img.shields.io/badge/red-                    -d43f3a.svg?style=for-the-badge" alt="red">
 * <img src="https://img.shields.io/badge/pink-                    -ff067c.svg?style=for-the-badge" alt="pink">
 * <img src="https://img.shields.io/badge/blue-                    -0488bb.svg?style=for-the-badge" alt="blue">
@@ -152,18 +183,27 @@ Actually we have 10 colors, are:
 ### Classes
 
 Classes are formed by `prefix-type-color`, examples:
-* `is-color-green`
-``` html
+
+`.is-color-green`
+
+```html
 <i-button class="is-color-green">🗑</i-button>
 ```
-* `is-outline-green`
-``` html
+
+`.is-outline-green`
+
+```html
 <i-button class="is-outline-green">🗑</i-button>
 ```
-* `is-background-green`
-``` html
+
+`.is-background-green`
+
+```html
 <i-button class="is-background-green">🗑</i-button>
 ```
+
+> See more in [i-colors](https://www.npmjs.com/package/i-colors) and examples.
+> It's easier :smile:
 
 ## Demo
 

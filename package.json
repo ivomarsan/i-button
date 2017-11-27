@@ -1,6 +1,6 @@
 {
   "name": "i-button",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description":
     "A simplistic button forked from VueMaterial inspired in Material Design Style Guide",
   "author": "ivomarsan <ivomarlucio@gmail.com>",
@@ -24,7 +24,7 @@
     "url": "git+https://github.com/ivomarsan/i-button.git"
   },
   "dependencies": {
-    "i-colors": "^1.0.2",
+    "i-colors": "^1.1.0",
     "vue": "^2.4.4"
   },
   "browserslist": ["> 1%", "last 2 versions", "not ie <= 8"],
@@ -51,8 +51,5 @@
     "eslint-plugin-node": "^5.2.1",
     "eslint-plugin-promise": "^3.6.0",
     "eslint-plugin-standard": "^3.0.1"
-  },
-  "peerDependencies": {
-    "vue": "^2.4.2"
   }
 }
