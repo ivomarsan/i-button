@@ -23,7 +23,7 @@ import mdInkRipple from './mdInkRipple/mdInkRipple.vue';
 import iTooltip from 'i-tooltip';
 
 export default {
-  name: 'md-button',
+  name: 'i-button',
   components: {
     'md-ink-ripple': mdInkRipple,
     iTooltip,
